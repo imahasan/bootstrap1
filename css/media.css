@@ -1,0 +1,87 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  body{
+    background-color: black;
+  }
+  h1{
+    padding: 50px;
+    font-size: 15px;
+    color: white;
+    text-shadow: 2px 2px 5px #626262;
+  }
+  p{
+    font-size: 15px;
+    color: white;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  body{
+    background-color: lime;
+  }
+  h1{
+    padding: 60px;
+    font-size: 25px;
+    color: violet;
+    text-shadow: 2px 2px 5px lightgray;
+  }
+  p{
+    font-size: 18px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  body{
+    background-color: yellow;
+  }
+  h1{
+    padding: 70px;
+    font-size: 30px;
+    color: red;
+    text-shadow: 2px 2px 5px violet;
+  }
+  p{
+    font-size: 21px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  body{
+    background-color: green;
+  }
+  h1{
+    padding: 80px;
+    font-size: 40px;
+    color: rgb(113, 25, 25);
+    text-shadow: 2px 2px 5px yellow;
+  }
+  p{
+    font-size: 24px;
+  }
+}
+
+/* Extra Large devices (desktops, 992px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  body{
+    background-color: blue;
+  }
+  h1{
+    padding: 90px;
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 5px red;
+  }
+  p{
+    font-size: 27px;
+  }
+}
+
+/* Extra Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) {
+  h1{
+    text-shadow: 2px 2px 5px green;
+  }
+}
